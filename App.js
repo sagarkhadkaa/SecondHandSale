@@ -6,22 +6,13 @@ import {
     Text,
     StatusBar,
 } from "react-native";
+import AccountScreen from "./app/screens/AccountScreen";
+import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
+import ListingsScreen from "./app/screens/ListingsScreen";
+import MessagesScreen from "./app/screens/MessagesScreen";
+import ViewImageScreen from "./app/screens/ViewImageScreen";
+import WelcomeScreen from "./app/screens/WelcomeScreen";
 
 export default function App() {
-    return (
-        <SafeAreaView style={styles.container}>
-            <Text>Second Hand Sale</Text>
-            <Text>Product 1</Text>
-        </SafeAreaView>
-    );
+    return <WelcomeScreen />;
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: "#fff",
-        alignItems: "center",
-        // paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
-        // justifyContent: "center",
-    },
-});
