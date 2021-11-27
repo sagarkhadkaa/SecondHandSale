@@ -11,6 +11,7 @@ export default function App() {
     return (
         <SafeAreaView style={styles.container}>
             <Text>Second Hand Sale</Text>
+            <Text>Product 1</Text>
         </SafeAreaView>
     );
 }
